@@ -1,0 +1,196 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif
+}
+
+h1 {
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px; 
+    font-size: 50px; 
+    font-weight: lighter;
+    color: white; 
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: lighter;
+    text-indent: 55px;
+    color: gray;
+}
+
+h3 {
+    margin-bottom: 30px;
+    margin-top: -10px;
+    text-align: center; 
+    color: gray;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+h4 { 
+    padding: 20px 0px ;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: lighter; 
+    color: gray;
+}
+
+header {
+    padding: 30px 20px;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: lighter; 
+    background-image: url();
+    background-color: rgb(58, 61, 66);
+}
+
+header ul li {
+    padding: 5px;
+    margin-left: 190px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.facepic {
+    float: left;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+
+#about-me {
+    float: left;
+    margin: 30px;
+    width: 50%;
+}
+
+#about-me p {
+    padding: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    border: 5px double gray;
+    border-radius: 5px;
+}
+
+#my-work {
+    text-align: center; 
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    float: right;
+    width: 40%;
+    height: 600px;
+}
+
+#my-work ul {
+    list-style: none;
+}    
+
+.first-work {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.first-work-text {
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray; 
+}
+
+.second-work {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.second-work-text {
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+}
+
+.third-work {
+    position: relative;
+}
+
+.third-work-text {
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+}
+
+#contact-info {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin: 30px; 
+    text-align: center;
+    line-height: 30px;
+    border: 5px double gray;
+    border-radius: 5px;
+}   
+  
+#contact-info ul li {
+    display: block;
+    padding: 20px; 
+    font-size: 20px;
+    background-color: rgb(58, 61, 66);
+    color: lightgray;
+}
+
+@media (max-width: 900px) {
+
+    h1 {
+        float: none;
+    }  
+
+    header ul li {
+        margin-left: 30px;
+        display: block;
+    }
+
+    #about-me {
+        float:none;
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    #my-work {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+        margin-bottom: 40px; 
+    }
+
+    #contact-info {
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+}
